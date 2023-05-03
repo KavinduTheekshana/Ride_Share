@@ -1,0 +1,51 @@
+.col {
+    position: relative;
+
+    .centered-element {
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+        h1 {
+            // position: absolute;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 50.7259px;
+            line-height: 66px;
+        }
+
+        p {
+            max-width: 70%;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 19px;
+            line-height: 22px;
+            color: #9E9DA2;
+        }
+
+        .button_row {
+            margin-top: 40px;
+            a {
+                img{
+                    width: 28px;
+                }
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 18.6006px;
+                line-height: 0px;
+                color: #fff;
+                text-decoration: none;
+                background: #000000;
+                border-radius: 5px;
+                width: auto;
+                padding: 10px 25px;
+                margin-right: 12px;
+            }
+        }
+    }
+}

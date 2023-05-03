@@ -1,0 +1,25 @@
+.navbar {
+    padding-top: 45px !important;
+    img {
+        width: 180px;
+        height: 51px;
+    }
+    ul {
+        li {
+            .nav-link {
+                margin-right: 45px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17.1613px;
+                color: #000000;
+            }
+            .button {
+                background: #75BF7A;
+                border-radius: 5.95238px;
+                padding: 10px 27px 8px 27px !important;
+                color: #fff;
+            }
+        }
+    }
+}
