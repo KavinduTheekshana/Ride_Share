@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./navbar.scss";
 import logo from "../../assest/logo.svg";
 
-const Header = () => {
+const Navbar = () => {
   return (
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <img src={logo}/>
@@ -30,4 +30,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;
