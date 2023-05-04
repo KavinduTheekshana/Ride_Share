@@ -1,0 +1,81 @@
+.benefits {
+    margin: 105px 0 105px 0 !important;
+
+    h1 {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 46.3862px;
+        line-height: 50px;
+        text-align: center;
+
+        span {
+            color: #75BF7A;
+        }
+    }
+
+    .cards {
+        margin-top: 100px;
+
+        .single-card {
+            margin-top: 50px;
+            text-align: center;
+            width: 90%;
+            background: #FFFFFF;
+            border-radius: 10px;
+            padding: 20px 0px;
+
+            h2 {
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 88px;
+                line-height: 119px;
+                color: #75BF7A;
+                display: inline-block;
+                width: auto;
+                line-height: 1;
+
+            }
+
+            h3 {
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 33.9429px;
+                line-height: 32px;
+                display: inline-block;
+                width: auto;
+                text-align: left;
+                bottom: 0;
+                margin-left: 16px;
+            }
+
+            p {
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 23px;
+                color: #9E9DA2;
+                text-align: left;
+            }
+
+            .position-relative {
+                text-align: left;
+                line-height: 1;
+            }
+            .center-card{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .content{
+                    padding-left: 75px;
+                }
+            }
+            img{
+                height: 250px;
+            }
+        }
+    }
+}

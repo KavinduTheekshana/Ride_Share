@@ -48,7 +48,8 @@
             max-width: 80%;
             color: #9E9DA2;
         }
-        .ml-auto{
+
+        .ml-auto {
             margin-left: auto;
         }
     }
@@ -56,24 +57,29 @@
     .right {
         text-align: right;
     }
+
     .left {
         text-align: left;
     }
-    .circle{
+
+    .circle {
         text-align: center;
         background: url('../../assest/Ellipse.svg') no-repeat center center;
     }
+
     .swiper-pagination {
         position: relative;
         bottom: 0 !important;
     }
-    .swiper-pagination-bullet{
+
+    .swiper-pagination-bullet {
         width: 12.77px;
-height: 12.77px;
+        height: 12.77px;
         background: #75BF7A;
-opacity: 0.5;
+        opacity: 0.5;
     }
-    .swiper-pagination-bullet-active{
+
+    .swiper-pagination-bullet-active {
         background: #75BF7A;
         opacity: 1 !important;
     }
