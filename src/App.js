@@ -1,5 +1,5 @@
 import React from 'react';
-import { Apply, Header, Navbar } from './containers';
+import { Apply, Header, Navbar, Works } from './containers';
 import './App.scss';
 
 const App = () => (
@@ -8,6 +8,7 @@ const App = () => (
    <Navbar/>
    <Header />
    <Apply/>
+   <Works/>
    </div>
   </div>
 );
